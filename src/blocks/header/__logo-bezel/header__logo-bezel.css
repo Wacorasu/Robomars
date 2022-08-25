@@ -1,0 +1,7 @@
+.header__logo-bezel{
+    max-width: 520px;
+    position: absolute;
+    top: 68px;
+    right: 68px;
+    z-index: 0;
+}

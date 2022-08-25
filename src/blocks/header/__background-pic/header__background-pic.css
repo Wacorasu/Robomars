@@ -1,0 +1,11 @@
+.header__background-pic{
+    width: 260px;
+    height: 260px;
+    position: absolute;
+    right: 350px;
+    bottom: -90px;
+    z-index: 0;
+    background-color: #EAF1FA;
+    transform: rotate(165deg) translate(0px, 7px) skew(57deg, -3deg);
+    border-radius: 10px;
+}

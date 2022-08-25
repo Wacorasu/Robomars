@@ -1,0 +1,7 @@
+.header__logo-center{
+    max-width: 350px;
+    position: absolute;
+    top: 146px;
+    right: 146px;
+    z-index: 0;
+}

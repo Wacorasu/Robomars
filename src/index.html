@@ -4,11 +4,49 @@
     <meta charset="UTF-8" />
     <link rel="icon" href="<%=require('./favicon.png')%>"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./pages/index.css" />
     <title>Робомарс</title>
     <meta name="description" content="Клуб робототехники Робомарс в городе Кириши" />
     <meta name="author" content="Ванчуренков Константин" />
   </head>
-  <body>
+  <body class="main">
+    <header class="header">
+      <div class="header__title-container">
+        <h1 class="header__title">Клуб робототехники</h1>
+        <img src="<%=require('./images/robomars-logo-word.png')%>" alt="Робомарс" class="header__title-logo">
+      </div>
+      <div class="header__logo-container">
+        <div class="header__background-pic"></div>
+        <img src="<%=require('./images/robomars-bezel.png')%>" alt="Лолго" class="header__logo-bezel rotation-right">
+        <img src="<%=require('./images/robomars-center.png')%>" alt="Лого" class="header__logo-center rotation-left">
+        <img src="<%=require('./images/ev3logo.png')%>" alt="Робот" class="header__logo-robot">
+      </div>
+    </header>
+    <main class="content">
+      <section class="about-us">
+        <div class="about-us__two-columns">
+          <iamge class="about-us__image"/>
+          <div class="about-us__main-text">
+            <h2 class="about-us__title">Главные проблемы в обучении</h2>
+            <p class="about-us__paragraph">
+              Ни в школе, ни в институте нас не учат тому, как правильно
+              изучать материал. Мы готовимся к экзаменам и учим билеты. Мы
+              тренируемся решать однообразные задачи, чтобы лучше сдать тест,
+              но часто в итоге это не дает нам реального знания. Зубрежка
+              быстро выветривается и не приносит пользы.
+            </p>
+            <p class="about-us__paragraph">
+              <span class="about-us__span-accent">Вывод:</span> учиться
+              тоже нужно уметь, но почему-то этому мало где учат. Что с этим
+              делать?
+            </p>
+            <p class="about-us__paragraph">
+              Конкретные техники и упражнения помогают изменить подход к
+              обучению, сделать его эффективным и захватывающим. Эти же
+              техники применяются на примере обучения в Практикуме.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
