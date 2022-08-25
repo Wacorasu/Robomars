@@ -1,0 +1,7 @@
+.header__logo-robot{
+    max-width: 520px;
+    position: absolute;
+    right: 135px;
+    top: 194px;
+    z-index: 1;
+}
