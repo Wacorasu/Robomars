@@ -16,17 +16,19 @@
       </div>
       <div class="header__logo-container">
         <div class="header__background-pic"></div>
-        <img src="<%=require('./images/robomars-bezel.png')%>" alt="Лолго" class="header__logo-bezel rotation-right">
-        <img src="<%=require('./images/robomars-center.png')%>" alt="Лого" class="header__logo-center rotation-left">
+        <img src="<%=require('./images/robomars-bezel.png')%>" alt="Лолго" class="header__logo-bezel rotation">
+        <img src="<%=require('./images/robomars-center.png')%>" alt="Лого" class="header__logo-center rotation rotation_reverse">
         <img src="<%=require('./images/ev3logo.png')%>" alt="Робот" class="header__logo-robot">
       </div>
     </header>
     <main class="content">
       <section class="about-us">
         <div class="about-us__two-columns">
-          <iamge class="about-us__image"/>
+          <div class="about-us__image-frame">
+              <img class="about-us__image" src="<%=require('./images/image__about-us.jpg')%>" alt="Фото клуба"/>
+          </div>
           <div class="about-us__main-text">
-            <h2 class="about-us__title">Главные проблемы в обучении</h2>
+            <h2 class="about-us__title">О клубе</h2>
             <p class="about-us__paragraph">
               Ни в школе, ни в институте нас не учат тому, как правильно
               изучать материал. Мы готовимся к экзаменам и учим билеты. Мы
@@ -35,11 +37,9 @@
               быстро выветривается и не приносит пользы.
             </p>
             <p class="about-us__paragraph">
-              <span class="about-us__span-accent">Вывод:</span> учиться
+              Вывод:учиться
               тоже нужно уметь, но почему-то этому мало где учат. Что с этим
               делать?
-            </p>
-            <p class="about-us__paragraph">
               Конкретные техники и упражнения помогают изменить подход к
               обучению, сделать его эффективным и захватывающим. Эти же
               техники применяются на примере обучения в Практикуме.

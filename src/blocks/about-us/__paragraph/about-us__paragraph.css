@@ -1,0 +1,13 @@
+.about-us__paragraph{
+    margin: 0;
+    margin-bottom: 33px;
+    padding: 0;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;   
+}
+
+.about-us__paragraph:last-child{
+    margin-bottom: 0;
+    max-width: 75%;
+}
