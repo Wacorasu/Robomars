@@ -1,0 +1,3 @@
+.rotation_reverse {
+  animation: rotation 120s infinite reverse linear;
+}

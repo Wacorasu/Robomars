@@ -1,4 +1,7 @@
 .about-us{
     display: flex;
-    background-color: #F3F5EB
+    width: 100%;
+    justify-content: center;
+    background-color: #F3F5EB;
+    
 }

@@ -4,4 +4,5 @@
     top: 146px;
     right: 146px;
     z-index: 0;
+    overflow: hidden;
 }
