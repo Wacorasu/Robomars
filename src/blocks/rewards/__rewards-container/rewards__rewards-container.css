@@ -1,0 +1,5 @@
+.rewards__rewards-container{
+    display: flex;
+    gap: 10px;
+    align-items: flex-end;
+}

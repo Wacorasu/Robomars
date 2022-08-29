@@ -1,0 +1,14 @@
+.reward{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-image: url(../../images/frame_reward-center.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}

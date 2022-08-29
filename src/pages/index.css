@@ -21,6 +21,19 @@
 @import url(../blocks/about-us/__title/about-us__title.css);
 @import url(../blocks/about-us/__two-columns/about-us__two-columns.css);
 @import url(../blocks/about-us/__image-frame/about-us__image-frame.css);
-
+@import url(../blocks/button-arrow/button-arrow.css);
+@import url(../blocks/button-arrow/_right/button-arrow_right.css);
+@import url(../blocks/rewards/rewards.css);
+@import url(../blocks/rewards/__block-container/rewards__block-container.css);
+@import url(../blocks/rewards/__line/rewards__line.css);
+@import url(../blocks/rewards/__rewards-container/rewards__rewards-container.css);
+@import url(../blocks/reward/reward.css);
+@import url(../blocks/reward/__description/reward__description.css);
+@import url(../blocks/reward/__image/reward__image.css);
+@import url(../blocks/reward/__title/reward__title.css);
+@import url(../blocks/reward/_left-center/reward_left-center.css);
+@import url(../blocks/reward/_left/reward_left.css);
+@import url(../blocks/reward/_right-center/reward_right-center.css);
+@import url(../blocks/reward/_right/reward_right.css);
 
 

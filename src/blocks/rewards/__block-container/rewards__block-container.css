@@ -1,0 +1,10 @@
+.rewards__block-container{
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    box-sizing: border-box;
+    gap: 10px;
+    padding: 60px 40px 15px 40px;
+}

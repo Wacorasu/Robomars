@@ -1,0 +1,6 @@
+.reward_left{
+    max-width: 200px;
+    background-image: url(../../../images/frame_reward-left.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}

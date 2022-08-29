@@ -1,0 +1,18 @@
+.button-arrow{
+    align-self: center;
+    margin-right: 10px;
+    padding: 0;
+    min-width: 25px;
+    min-height: 60px;
+    background-image: url(../../images/arrow.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    box-sizing: border-box;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.button-arrow:hover{
+    opacity: 0.5;
+}
